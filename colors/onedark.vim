@@ -166,7 +166,7 @@ let g:terminal_ansi_colors = [
 
 " Syntax Groups (descriptions and ordering from `:h w18`) {{{
 
-call s:h("Comment", { "fg": s:green, "gui": "italic", "cterm": "italic" }) " any comment
+call s:h("Comment", { "fg": s:comment_grey, "gui": "italic", "cterm": "italic" }) " any comment
 call s:h("Constant", { "fg": s:cyan }) " any constant
 call s:h("String", { "fg": s:green }) " a string constant: "this is a string"
 call s:h("Character", { "fg": s:green }) " a character constant: 'c', '\n'
@@ -180,7 +180,7 @@ call s:h("Conditional", { "fg": s:purple }) " if, then, else, endif, switch, etc
 call s:h("Repeat", { "fg": s:purple }) " for, do, while, etc.
 call s:h("Label", { "fg": s:purple }) " case, default, etc.
 call s:h("Operator", { "fg": s:purple }) " sizeof", "+", "*", etc.
-call s:h("Keyword", { "fg": s:red }) " any other keyword
+call s:h("Keyword", { "fg": s:purple }) " any other keyword
 call s:h("Exception", { "fg": s:purple }) " try, catch, throw
 call s:h("PreProc", { "fg": s:yellow }) " generic Preprocessor
 call s:h("Include", { "fg": s:blue }) " preprocessor #include
